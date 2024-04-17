@@ -1,0 +1,389 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    margin-left: 10rem;
+    padding: 0rem 1rem;
+
+    a {
+        margin: 0 6px;
+    }
+
+    li {
+        vertical-align: baseline;
+        padding: 0 0.4rem;
+    }
+
+}
+
+img {
+
+    width: 1.7rem;
+    height: 1.4rem;
+    vertical-align: bottom;
+    margin-top: 2px;
+
+}
+
+.list2 {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    margin-left: 10rem;
+    padding: 0rem .4rem;
+
+    li {
+        vertical-align: baseline;
+        padding-left: 10px;
+    }
+
+}
+
+.list3 {
+    display: flex;
+    list-style-type: none;
+    margin-left: 20rem;
+    margin-right: 5rem;
+    padding: 0rem 1rem;
+
+    li {
+        vertical-align: baseline;
+        padding-left: 20px;
+    }
+
+}
+
+.navbar {
+    
+    display: flex;
+}
+
+.logo img {
+    margin-top: 10%;
+    height: 3rem;
+    width: 15rem;
+    margin-left: 10rem;
+}
+
+.search {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.all {
+    height: 3.4rem;
+    background-color: blue;
+    color: white;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+
+.search select {
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-top: 8px;
+}
+
+.search label {
+    font-size: 20px;
+    padding-top: 9rem;
+    padding-left: 10px;
+}
+
+.search input {
+    height: 3rem;
+    width: 30rem;
+    display: block;
+    font-size: larger;
+    padding-left: 10px;
+}
+
+.search button {
+    height: 3.3rem;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: blue;
+}
+
+.options {
+    display: flex;
+    margin-left: 2%;
+}
+
+.options div {
+    font-size: larger;
+    padding: 1rem;
+}
+
+.options img {
+    height: 2rem;
+    width: 2.8rem;
+    margin-left: 0px;
+    margin-top: 20px;
+    display: block;
+}
+
+.cart {
+    display: flex;
+    padding: 5px;
+    align-content: baseline;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.cartInfo {
+    padding-top: 8px;
+    font-size: larger;
+}
+
+.cartButton img {
+    padding: 10px;
+    padding-left: 1.8rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.nav1 {
+    background-color: rgba(0, 0, 255, 0.891);
+    display: flex;
+    font-weight: 450;
+
+}
+
+.navoptions {
+    margin-left: 7.5rem;
+
+}
+
+.navoptions li img {
+
+    padding: 0 9px;
+    height: 1.4rem;
+    width: 1.7rem;
+
+}
+
+.navoptions li {
+    color: aliceblue;
+    display: inline;
+    padding: 1.2rem;
+    margin: 0;
+}
+
+.navoptions li:hover {
+    background-color: yellow;
+    color: black;
+    padding: 1.2rem;
+
+}
+
+.contactMenu {
+    margin-left: 28%;
+    justify-content: flex-end;
+}
+
+.main {
+    padding: .5rem;
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 2%;
+}
+
+.bigImage {
+    position: relative;
+    padding: 2px;
+    width: 75%;
+    margin: 1rem;
+
+}
+
+.bigImage img {
+    border-radius: 3rem;
+    height: 100%;
+    width: 100%;
+}
+
+.bigImage a {
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    background: transparent;
+    border: 2px solid rgb(129, 124, 124);
+    font-size: large;
+    margin: 2px;
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: medium;
+    color: rgb(55, 55, 55);
+    display: inline;
+
+}
+
+.bigImage a img {
+
+    height: 1rem;
+    width: 1rem;
+    margin-left: 6px;
+
+    vertical-align: middle;
+
+}
+
+.sub {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+
+}
+
+.sub div {
+    padding: 0.2rem;
+}
+
+.img1 {
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+
+}
+
+.img2 {
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+
+}
+
+.subCategory {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(57, 74, 88);
+
+}
+
+.freeShip {
+    display: flex;
+}
+
+.subCategory p {
+    color: rgb(128, 123, 123);
+    margin: 1.6rem 0rem;
+}
+
+.subCategory b {
+    color: rgb(185, 191, 196);
+    font-size: larger;
+
+}
+
+.freeReturns {
+    display: flex;
+}
+
+.secure {
+    display: flex;
+}
+
+.unlimitedBlocks {
+    display: flex;
+}
+
+.features {
+    margin: 2rem;
+}
+
+.features img {
+    border: 2px solid rgb(86, 86, 179);
+    border-radius: 100%;
+    padding: 1rem;
+}
+.buyFromUs h2{
+    text-align: center;
+}
+.buyFromUs p{
+    text-align: center;
+}
+.buyFromUs hr{
+    margin-left: 55rem;
+    margin-right: 55rem ;
+}
+.productOptions {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+    padding: 2rem;
+
+}
+
+.productOptions li {
+    background-color: rgb(204, 196, 196);
+    border: .1px solid grey;
+    padding: 1rem;
+
+}
+
+.productOptions li:hover {
+    background-color: rgba(6, 38, 65, 0.891);
+    color: white;
+}
+
+.topCategories {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.topCategories p {
+    position: absolute;
+
+    text-align: center;
+    background-color: white;
+    top: 80%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: medium;
+    border: none;
+}
+
+.topCategories img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    
+}
+.fashion {
+    left: 22%;
+  }
+  
+  .bags {
+    left: 35%;
+  }
+  
+  .health {
+    left: 45%;
+  }
+  
+  .footwear {
+    left: 60%;
+  }
+  
+  .decor {
+    left: 70%;
+  }
+  
