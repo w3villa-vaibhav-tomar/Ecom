@@ -770,7 +770,6 @@ nav {
   .menubar-dropdown {
     padding: 0.6rem;
     display: block;
-    background-color: var(--lightgrey);
   }
 
   .options {
@@ -801,7 +800,9 @@ nav {
     margin-top: 1rem;
     padding: 0;
   }
-
+  .navbar{
+    background-color: rgb(238, 236, 236);
+  }
   .navbar-dropdown {
     display: flex;
     justify-content: space-around;
@@ -986,4 +987,63 @@ nav {
     top: 57vw;
   }
 
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.footer-items {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border-left: 2px solid var(--lightgrey);
+  padding: 1rem;
+}
+.footer-items h3 {
+  margin: 0%;
+  padding: 0%;
+  font-weight: 500;
+}
+.footer-items li {
+  display: block;
+  color: var(--blue-background)
+}
+.footer-items hr {
+  border-color: red;
+  width: 50%;
+  margin-left: 2px
+}
+.terms-conditions {
+  display: flex;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  background-color: var(--lightgrey);
+}
+.social a {
+  border: none;
+  margin: 0.5rem;
+  border-radius: 100%;
+  background-color: var(--blue-background);
+}
+.social i {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .logo img{
+    width: 150px;
+  }
+  .footer-section {
+    flex-direction: column; /* Stack footer items vertically */
+  }
+
+  .footer-items {
+    width: 100%; /* Each footer item takes up 100% of the width */
+    margin-bottom: 20px; /* Add some margin between footer items */
+  }
 }
