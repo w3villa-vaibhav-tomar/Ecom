@@ -31,6 +31,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     autoplay: true,
     swipe: true,
+    arrows:false,
     autoplaySpeed: 1000,
     responsive:[
       {
@@ -40,9 +41,15 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 750,
+        breakpoint: 745,
         settings:{
           slidesToShow:2,
+        }
+      },
+      {
+        breakpoint: 400,
+        settings:{
+          slidesToShow:1,
         }
       }
     ]
@@ -58,6 +65,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 1000,
     swipe: true,
+    arrows:false,
     responsive:[
       {
         breakpoint: 1060,
@@ -73,7 +81,8 @@ $(document).ready(function () {
   $('.allbrands').slick({
     dots: true,
     infinite: true,
-    slidesToShow: 4, 
+    slidesToShow: 7, 
+    arrows:false,
     slidesToScroll: 2,
     autoplay: true,
     swipe: true,
@@ -82,7 +91,7 @@ $(document).ready(function () {
       {
         breakpoint: 1060,
         settings:{
-          slidesToShow:2,
+          slidesToShow:3,
         }
       }
     ]
@@ -97,6 +106,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     autoplay: true,
     swipe: true,
+    arrows:false,
     autoplaySpeed: 1000,
     responsive:[
       {

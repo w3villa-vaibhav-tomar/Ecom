@@ -384,6 +384,7 @@ nav {
 
   height: 100%;
   width: 100%;
+  object-fit: cover;
   border-radius: 8px;
 
 }
@@ -415,6 +416,9 @@ nav {
 .cartItem {
   display: flex;
   position: relative;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
   margin: 0.4rem;
   flex-direction: column;
   border: 2px solid var(--lightgrey);
@@ -537,11 +541,14 @@ nav {
   display: flex;
   margin: 1rem 0.4rem;
   justify-content: space-between;
+  border: 2px solid black;
 }
 
 .allbrands img {
-  height: 80%;
-  width: auto;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  
   border: 2px solid var(--lightgrey);
   border-radius: 4px;
 }
@@ -581,19 +588,21 @@ nav {
   background-color: rgb(175, 171, 165);
   border: 2px solid black;
 }
-.latestcards {
+/* .latestcards {
  
   display: flex;
   position: relative;
   flex-direction: column;
 
-}
+} */
 
 .latestcards-img {
+  position: relative;
   border-radius: 1rem;
   align-self: center;
   height: 70%;
   width: 97%;
+  margin-left: .5rem;
 
 }
 
@@ -647,11 +656,11 @@ nav {
   background-color: rgba(248, 238, 238, 0.658);
   justify-content: center;
   position: absolute;
-  top: 26.5rem;
-  /* left: 0%; */
-  width: 97%;
-  opacity: 1;
-  /* border: 2px solid black; */
+  
+  bottom: 0;
+  
+  width: 100%;
+ 
 }
 
 .views p {
@@ -660,7 +669,20 @@ nav {
   padding: 0 0.6rem;
 
 }
+.greybg a {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  margin-left: .5rem;
+}
 
+.greybg a:hover {
+  background-color: #0056b3;
+}
 .views img {
   padding: 0 0.1rem;
   height: 1rem;
@@ -927,7 +949,12 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
   }
-
+  .pname{
+    display: none;
+  }
+  .buy{
+    display: none;
+  }
   .allbrands {
     flex-wrap: wrap;
   }
@@ -983,9 +1010,9 @@ nav {
     justify-content: unset;
   }
 
-  .views {
+  /* .views {
     top: 57vw;
-  }
+  } */
 
 }
 
