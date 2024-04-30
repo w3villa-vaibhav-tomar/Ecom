@@ -270,9 +270,9 @@ nav {
   border-radius: var(--border-radius);
   transition: transform 0.3s ease;
 }
-.mainhighlight:hover img{
+/* .mainhighlight:hover img{
   transform: scale(1.5);
-}
+} */
 .mainhighlight a {
   position: absolute;
   top: 65.2%;
@@ -356,7 +356,7 @@ nav {
 
 .categories {
   padding: var(--standard-padding);
-  border: 2px solid black
+  /* border: 2px solid black */
   
 }
 
@@ -577,9 +577,9 @@ nav {
 }
 
 .allbrands img {
-  height: 130px;
+  height: 76px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border: 2px solid var(--lightgrey);
   border-radius: var(--border-radius);
 }
@@ -603,6 +603,7 @@ nav {
 
   border-radius: var(--border-radius);
   border: none;
+  object-fit: contain;
 }
 
 .gallitems {
@@ -880,7 +881,7 @@ nav {
 .allFashion {
   display: flex;
   padding: var(--standard-padding);
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .smallFashionCat {
   width: 20%;
@@ -923,7 +924,7 @@ nav {
 .rule1 {
   margin-left: 0px;
   width: 5rem;
-  border: 2px solid rgb(226, 100, 55);
+  /* border: 2px solid rgb(226, 100, 55); */
 }
 .rule2 {
   margin-left: 0px;
@@ -1326,6 +1327,10 @@ nav {
     width: 96%;
 
   }
+  .footer-items{
+    margin: 0;
+    padding: 0;
+  }
   .readMore{
     width: 20%;
   }
@@ -1400,5 +1405,11 @@ nav {
   }
   .allFashion hr{
     margin: 10px;
+  }
+}
+
+@media  screen and (min-width:500px) {
+  .mainhighlight:hover img{
+    transform: scale(1.1);
   }
 }
